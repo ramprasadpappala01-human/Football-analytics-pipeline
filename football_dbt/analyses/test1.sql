@@ -1,0 +1,1 @@
+select * from {{ref('bronze_dim_dates') }} limit 10;

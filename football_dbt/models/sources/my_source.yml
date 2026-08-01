@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: my_source
+    schema: public
+    tables:
+      - name: fact_matches
+      - name: dim_dates
+      - name: dim_leagues
+      - name: dim_venues
+      - name: dim_teams
+      - name: dim_players

@@ -1,0 +1,12 @@
+football_dbt:
+  outputs:
+    dev:
+      dbname: football_project
+      host: localhost
+      pass: '1234'
+      port: 5432
+      schema: football_dbt_dev
+      threads: 1
+      type: postgres
+      user: ram
+  target: dev
